@@ -1,0 +1,34 @@
+$main:#ff1;
+*{
+    margin:0 auto;
+}
+.hum{
+    position:absolute;
+    top:2%;
+    left:5px;
+    writing-mode: vertical-rl;
+    cursor:pointer;
+    .lo{
+        border:2px solid black;
+        margin:2px;
+        width:15px;
+    }
+}
+.menu{
+    position:fixed;
+    top:0;
+    width:30%;
+    height:40%;
+    background:gray;
+    display:none;
+    z-index:10;
+    color:white;
+    li{
+        list-style-type:none;
+     }
+    .re{
+        display:flex;
+        font-size:20px;
+        cursor:pointer;
+    }
+}

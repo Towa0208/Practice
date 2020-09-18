@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+}
+
+.hum {
+  position: absolute;
+  top: 2%;
+  left: 5px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  cursor: pointer;
+}
+
+.hum .lo {
+  border: 2px solid black;
+  margin: 2px;
+  width: 15px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 30%;
+  height: 40%;
+  background: gray;
+  display: none;
+  z-index: 10;
+  color: white;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu .re {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=test.css.map */
